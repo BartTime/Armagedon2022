@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA49340228077921005F88AB /* AsteroidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49340128077921005F88AB /* AsteroidViewController.swift */; };
+		FA4934042807794F005F88AB /* AsteroidCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4934032807794F005F88AB /* AsteroidCollectionCell.swift */; };
+		FA59BB252808825C00D17F8A /* FilterMeasurementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59BB242808825C00D17F8A /* FilterMeasurementCell.swift */; };
+		FA59BB27280882B200D17F8A /* FilterDangerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59BB26280882B200D17F8A /* FilterDangerCell.swift */; };
+		FA59BB2B280890CD00D17F8A /* FilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59BB2A280890CD00D17F8A /* FilterController.swift */; };
+		FA69D2792807236900FCA19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA69D2782807236900FCA19F /* AppDelegate.swift */; };
+		FA69D27B2807236900FCA19F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA69D27A2807236900FCA19F /* SceneDelegate.swift */; };
+		FA69D2802807236900FCA19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA69D27E2807236900FCA19F /* Main.storyboard */; };
+		FA69D2822807236D00FCA19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA69D2812807236D00FCA19F /* Assets.xcassets */; };
+		FA69D2852807236D00FCA19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA69D2832807236D00FCA19F /* LaunchScreen.storyboard */; };
+		FA69D295280734E200FCA19F /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA69D294280734E200FCA19F /* Structs.swift */; };
+		FA8AF4D0280C1B0600329120 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF4CE280C1B0600329120 /* Model.xcdatamodeld */; };
+		FA8AF4D3280C1F2C00329120 /* BasketForDestruction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF4D1280C1F2C00329120 /* BasketForDestruction+CoreDataClass.swift */; };
+		FA8AF4D4280C1F2C00329120 /* BasketForDestruction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF4D2280C1F2C00329120 /* BasketForDestruction+CoreDataProperties.swift */; };
+		FA8AF500280C26E200329120 /* DataStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF4FF280C26E200329120 /* DataStorageManager.swift */; };
+		FA8AF503280C5B2B00329120 /* BasketToDestroyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF502280C5B2B00329120 /* BasketToDestroyCell.swift */; };
+		FA8AF505280C5B6500329120 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF504280C5B6500329120 /* BasketViewController.swift */; };
+		FA8AF507280C946000329120 /* ButtonToDestroyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF506280C946000329120 /* ButtonToDestroyCell.swift */; };
+		FAA204B7280B200100684D56 /* AsteroidInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA204B6280B200100684D56 /* AsteroidInfoCell.swift */; };
+		FAA204BD280B295B00684D56 /* AsteroidInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA204BC280B295A00684D56 /* AsteroidInfoViewController.swift */; };
+		FAA204BF280B48D600684D56 /* AsteroidInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA204BE280B48D600684D56 /* AsteroidInfoStruct.swift */; };
+		FAAC7DE3280D844D0045AC27 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC7DE2280D844D0045AC27 /* UserSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA49340128077921005F88AB /* AsteroidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidViewController.swift; sourceTree = "<group>"; };
+		FA4934032807794F005F88AB /* AsteroidCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidCollectionCell.swift; sourceTree = "<group>"; };
+		FA59BB242808825C00D17F8A /* FilterMeasurementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterMeasurementCell.swift; sourceTree = "<group>"; };
+		FA59BB26280882B200D17F8A /* FilterDangerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDangerCell.swift; sourceTree = "<group>"; };
+		FA59BB2A280890CD00D17F8A /* FilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterController.swift; sourceTree = "<group>"; };
+		FA69D2752807236900FCA19F /* Armagedon2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Armagedon2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA69D2782807236900FCA19F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA69D27A2807236900FCA19F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA69D27F2807236900FCA19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA69D2812807236D00FCA19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA69D2842807236D00FCA19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA69D2862807236D00FCA19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA69D294280734E200FCA19F /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		FA8AF4CF280C1B0600329120 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FA8AF4D1280C1F2C00329120 /* BasketForDestruction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BasketForDestruction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FA8AF4D2280C1F2C00329120 /* BasketForDestruction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BasketForDestruction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FA8AF4FF280C26E200329120 /* DataStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorageManager.swift; sourceTree = "<group>"; };
+		FA8AF502280C5B2B00329120 /* BasketToDestroyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketToDestroyCell.swift; sourceTree = "<group>"; };
+		FA8AF504280C5B6500329120 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		FA8AF506280C946000329120 /* ButtonToDestroyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonToDestroyCell.swift; sourceTree = "<group>"; };
+		FAA204B6280B200100684D56 /* AsteroidInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidInfoCell.swift; sourceTree = "<group>"; };
+		FAA204BC280B295A00684D56 /* AsteroidInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidInfoViewController.swift; sourceTree = "<group>"; };
+		FAA204BE280B48D600684D56 /* AsteroidInfoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidInfoStruct.swift; sourceTree = "<group>"; };
+		FAAC7DE2280D844D0045AC27 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA69D2722807236900FCA19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA69D26C2807236900FCA19F = {
+			isa = PBXGroup;
+			children = (
+				FA69D2772807236900FCA19F /* Armagedon2022 */,
+				FA69D2762807236900FCA19F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA69D2762807236900FCA19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA69D2752807236900FCA19F /* Armagedon2022.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA69D2772807236900FCA19F /* Armagedon2022 */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AF4D7280C1FC700329120 /* Controllers */,
+				FA8AF4D6280C1FAE00329120 /* Structs */,
+				FA8AF4D5280C1F4C00329120 /* Model */,
+				FA69D2902807341C00FCA19F /* Cells */,
+				FA69D2782807236900FCA19F /* AppDelegate.swift */,
+				FA69D27A2807236900FCA19F /* SceneDelegate.swift */,
+				FAAC7DE2280D844D0045AC27 /* UserSettings.swift */,
+				FA69D27E2807236900FCA19F /* Main.storyboard */,
+				FA69D2812807236D00FCA19F /* Assets.xcassets */,
+				FA69D2832807236D00FCA19F /* LaunchScreen.storyboard */,
+				FA69D2862807236D00FCA19F /* Info.plist */,
+				FA8AF4CE280C1B0600329120 /* Model.xcdatamodeld */,
+			);
+			path = Armagedon2022;
+			sourceTree = "<group>";
+		};
+		FA69D2902807341C00FCA19F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA4934032807794F005F88AB /* AsteroidCollectionCell.swift */,
+				FA59BB242808825C00D17F8A /* FilterMeasurementCell.swift */,
+				FA59BB26280882B200D17F8A /* FilterDangerCell.swift */,
+				FAA204B6280B200100684D56 /* AsteroidInfoCell.swift */,
+				FA8AF502280C5B2B00329120 /* BasketToDestroyCell.swift */,
+				FA8AF506280C946000329120 /* ButtonToDestroyCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA8AF4D5280C1F4C00329120 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AF4D1280C1F2C00329120 /* BasketForDestruction+CoreDataClass.swift */,
+				FA8AF4D2280C1F2C00329120 /* BasketForDestruction+CoreDataProperties.swift */,
+				FA8AF4FF280C26E200329120 /* DataStorageManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA8AF4D6280C1FAE00329120 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				FA69D294280734E200FCA19F /* Structs.swift */,
+				FAA204BE280B48D600684D56 /* AsteroidInfoStruct.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		FA8AF4D7280C1FC700329120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA49340128077921005F88AB /* AsteroidViewController.swift */,
+				FAA204BC280B295A00684D56 /* AsteroidInfoViewController.swift */,
+				FA59BB2A280890CD00D17F8A /* FilterController.swift */,
+				FA8AF504280C5B6500329120 /* BasketViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA69D2742807236900FCA19F /* Armagedon2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA69D2892807236D00FCA19F /* Build configuration list for PBXNativeTarget "Armagedon2022" */;
+			buildPhases = (
+				FA69D2712807236900FCA19F /* Sources */,
+				FA69D2722807236900FCA19F /* Frameworks */,
+				FA69D2732807236900FCA19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Armagedon2022;
+			productName = Armagedon2022;
+			productReference = FA69D2752807236900FCA19F /* Armagedon2022.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA69D26D2807236900FCA19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FA69D2742807236900FCA19F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = FA69D2702807236900FCA19F /* Build configuration list for PBXProject "Armagedon2022" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA69D26C2807236900FCA19F;
+			productRefGroup = FA69D2762807236900FCA19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA69D2742807236900FCA19F /* Armagedon2022 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA69D2732807236900FCA19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA69D2852807236D00FCA19F /* LaunchScreen.storyboard in Resources */,
+				FA69D2822807236D00FCA19F /* Assets.xcassets in Resources */,
+				FA69D2802807236900FCA19F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA69D2712807236900FCA19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AF505280C5B6500329120 /* BasketViewController.swift in Sources */,
+				FA8AF507280C946000329120 /* ButtonToDestroyCell.swift in Sources */,
+				FA69D2792807236900FCA19F /* AppDelegate.swift in Sources */,
+				FA8AF500280C26E200329120 /* DataStorageManager.swift in Sources */,
+				FA59BB252808825C00D17F8A /* FilterMeasurementCell.swift in Sources */,
+				FAA204BD280B295B00684D56 /* AsteroidInfoViewController.swift in Sources */,
+				FA8AF4D3280C1F2C00329120 /* BasketForDestruction+CoreDataClass.swift in Sources */,
+				FA8AF4D4280C1F2C00329120 /* BasketForDestruction+CoreDataProperties.swift in Sources */,
+				FA69D27B2807236900FCA19F /* SceneDelegate.swift in Sources */,
+				FAAC7DE3280D844D0045AC27 /* UserSettings.swift in Sources */,
+				FA59BB27280882B200D17F8A /* FilterDangerCell.swift in Sources */,
+				FA59BB2B280890CD00D17F8A /* FilterController.swift in Sources */,
+				FA4934042807794F005F88AB /* AsteroidCollectionCell.swift in Sources */,
+				FAA204B7280B200100684D56 /* AsteroidInfoCell.swift in Sources */,
+				FA8AF503280C5B2B00329120 /* BasketToDestroyCell.swift in Sources */,
+				FA69D295280734E200FCA19F /* Structs.swift in Sources */,
+				FAA204BF280B48D600684D56 /* AsteroidInfoStruct.swift in Sources */,
+				FA49340228077921005F88AB /* AsteroidViewController.swift in Sources */,
+				FA8AF4D0280C1B0600329120 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA69D27E2807236900FCA19F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA69D27F2807236900FCA19F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA69D2832807236D00FCA19F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA69D2842807236D00FCA19F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA69D2872807236D00FCA19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA69D2882807236D00FCA19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA69D28A2807236D00FCA19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CP2L725RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Armagedon2022/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.Armagedon2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA69D28B2807236D00FCA19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CP2L725RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Armagedon2022/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.Armagedon2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA69D2702807236900FCA19F /* Build configuration list for PBXProject "Armagedon2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA69D2872807236D00FCA19F /* Debug */,
+				FA69D2882807236D00FCA19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA69D2892807236D00FCA19F /* Build configuration list for PBXNativeTarget "Armagedon2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA69D28A2807236D00FCA19F /* Debug */,
+				FA69D28B2807236D00FCA19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA8AF4CE280C1B0600329120 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA8AF4CF280C1B0600329120 /* Model.xcdatamodel */,
+			);
+			currentVersion = FA8AF4CF280C1B0600329120 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA69D26D2807236900FCA19F /* Project object */;
+}
